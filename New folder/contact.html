@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>تماس با ما</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link" onclick="setActive(this)">صفحه اصلی</a></li>
+                <li><a href="products.html" class="nav-link" onclick="setActive(this)">محصولات</a></li>
+                <li><a href="contact.html" class="nav-link" onclick="setActive(this)">تماس با ما</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>تماس با ما</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="نام شما" required>
+                <input type="email" id="email" placeholder="ایمیل شما" required>
+                <textarea id="message" placeholder="پیام شما" required></textarea>
+                <button type="submit">ارسال</button>
+            </form>
+            <div id="contact-info">
+                <p>آدرس: خیابان آزادی، تهران، ایران</p>
+                <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+                <p>ایمیل: info@example.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 فروشگاه آنلاین. کلیه حقوق محفوظ است.</p>
+        <p>آدرس: خیابان آزادی، تهران، ایران</p>
+        <p>تلفن: ۰۲۱-۱۲۳۴۵۶۷۸</p>
+        <p>ایمیل: info@example.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
